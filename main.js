@@ -41,7 +41,7 @@ const handleQuiz = (e) => {
 		warningInfo.textContent = "Brawo wszystkie odpowiedzi są poprawne !";
 	} else {
 		warning.classList.add("warning-active");
-		warningInfo.textContent = "Niestety nie wszystkie odpowiedzi są poprawne ";
+		warningInfo.textContent = "Niestety niewszystkie odpowiedzi są poprawne ";
 	}
 };
 

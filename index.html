@@ -12,66 +12,74 @@
 <body>
 
 	<form class="box" action="|">
-
-		<h1> QUIZ HTML i CSS...</h1>
-
-		<div class="box-answer">
-			<h3 class="question">Który z poniższych tagów NIE jest elementem blokowym ?</h3>
-
-			<input type="radio" name="question-1" id="answer-1" class="answer" value="false" />
-			<label for="answer-1">DIV</label>
-
-			<input type="radio" name="question-1" id="answer-2" class="answer" value="true" />
-			<label for="answer-2">SPAN</label>
-
-			<input type="radio" name="question-1" id="answer-3" class="answer" value="false" />
-			<label for="answer-3">P</label>
-		</div>
+		<fieldset>
+			<legend>
+				<h1> QUIZ HTML i CSS...</h1>
+			</legend>
 
 
-		<div class="box-answer">
-			<h3 class="question">Jak zaimportować CSS z zewnętrznego pliku ?</h3>
+			<div class="box-answer">
+				<h3 class="question">Który z poniższych tagów NIE jest elementem blokowym ?</h3>
 
-			<input type="radio" name="question-2" id="answer-4" class="answer" value="true" />
-			<label for="answer-4">za pomocą tagu &ltlink&gt</label>
+				<input type="radio" name="question-1" id="answer-1" class="answer" value="false" />
+				<label for="answer-1">DIV</label>
 
-			<input type="radio" name="question-2" id="answer-5" class="answer" value="false" />
-			<label for="answer-5">Za pomocą tabu &ltmeta=""&gt</label>
+				<input type="radio" name="question-1" id="answer-2" class="answer" value="true" />
+				<label for="answer-2">SPAN</label>
 
-			<input type="radio" name="question-2" id="answer-6" class="answer" value="false" />
-			<label for="answer-6">Za pomocą tagu &ltstyle&gt</label>
-		</div>
-
-
-		<div class="box-answer">
-			<h3 class="question">Ile mamy nagłówków w HTML'u ?</h3>
-
-			<input type="radio" name="question-3" id="answer-7" class="answer" value="false" />
-			<label for="answer-7">8</label>
-
-			<input type="radio" name="question-3" id="answer-8" class="answer" value="false" />
-			<label for="answer-8">4</label>
-
-			<input type="radio" name="question-3" id="answer-9" class="answer" value="true" />
-			<label for="answer-9">6</label>
-		</div>
-
-		<div class="box-answer">
-			<h3 class="question"> Co oznacza zapis: padding: 20px 10px; ?</h3>
-
-			<input type="radio" name="question-4" id="answer-10" class="answer" value="true" />
-			<label for="answer-10">Padding góra, dół 20px i boli 10px</label>
-
-			<input type="radio" name="question-4" id="answer-11" class="answer" value="false" />
-			<label for="answer-11">Padding góra, dół 10px i boki 20px</label>
-
-			<input type="radio" name="question-4" id="answer-12" class="answer" value="false" />
-			<label for="answer-12">Żadna z powyższych</label>
-		</div>
+				<input type="radio" name="question-1" id="answer-3" class="answer" value="false" />
+				<label for="answer-3">P</label>
+			</div>
 
 
+			<div class="box-answer">
+				<h3 class="question">Jak można zaimportować CSS z zewnętrznego pliku ?</h3>
 
-		<button class="btn-check" type="submit">Sprawdź odpowiedzi</button>
+				<input type="radio" name="question-2" id="answer-4" class="answer" value="true" />
+				<label for="answer-4">za pomocą tagu &ltlink&gt</label>
+
+				<input type="radio" name="question-2" id="answer-5" class="answer" value="false" />
+				<label for="answer-5">Za pomocą tabu &ltmeta=""&gt</label>
+
+				<input type="radio" name="question-2" id="answer-6" class="answer" value="false" />
+				<label for="answer-6">Za pomocą tagu &ltstyle&gt</label>
+			</div>
+
+
+			<div class="box-answer">
+				<h3 class="question">Ile mamy nagłówków w HTML'u ?</h3>
+				<div>
+					<input type="radio" name="question-3" id="answer-7" class="answer" value="false" />
+					<label for="answer-7">8</label>
+
+					<input type="radio" name="question-3" id="answer-8" class="answer" value="false" />
+					<label for="answer-8">4</label>
+
+					<input type="radio" name="question-3" id="answer-9" class="answer" value="true" />
+					<label for="answer-9">6</label>
+				</div>
+			</div>
+
+			<div class="box-answer">
+				<h3 class="question"> Co oznacza zapis: padding: 20px 10px ?</h3>
+				<div>
+					<input type="radio" name="question-4" id="answer-10" class="answer" value="true" />
+					<label for="answer-10">Margines wewnętrzny: wcięcie góra & dół=20px; prawo & lewo=10px</label>
+				</div>
+				<div>
+					<input type="radio" name="question-4" id="answer-11" class="answer" value="false" />
+					<label for="answer-11">Margines wewnętrzny: wcięcie prawo & lewo=20px; góra i dół=10px </label>
+				</div>
+				<div>
+					<input type="radio" name="question-4" id="answer-12" class="answer" value="false" />
+					<label for="answer-12">Margines zewnętrzny: wcięcie góra & dół=20px; prawo & lewo=10px</label>
+				</div>
+			</div>
+
+
+
+			<button class="btn-check" type="submit">Sprawdź odpowiedzi</button>
+		</fieldset>
 	</form>
 
 	<div class="warning ">
